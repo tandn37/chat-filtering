@@ -1,0 +1,20 @@
+{
+  "name": "chat-filtering",
+  "version": "1.0.0",
+  "description": "Chat filtering system",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "TanDN",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "cron": "^1.1.0",
+    "event-stream": "^3.3.4",
+    "mongoose": "^5.2.9",
+    "node-simple-router": "^0.10.1",
+    "redis": "^2.8.0"
+  }
+}
